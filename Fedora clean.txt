@@ -1,0 +1,33 @@
+Here are some commands and tools that you can use to keep your Fedora Linux system up to date, clean and maintained:
+
+    sudo dnf update: This command updates your system packages to the latest versions available in the repositories.
+
+    sudo dnf upgrade: This command upgrades your system packages to the latest versions, including kernel upgrades.
+
+    sudo dnf autoremove: This command removes orphaned packages that are no longer needed by the system.
+
+    sudo dnf clean all: This command cleans up the cache of downloaded packages to save disk space.
+
+    sudo dnf check-update: This command checks for any available updates without actually installing them.
+
+    sudo dnf install package-name: This command installs a new package on your system.
+
+    sudo dnf remove package-name: This command removes an installed package from your system.
+
+    sudo systemctl status service-name: This command checks the status of a particular system service.
+
+    sudo systemctl start/stop/restart service-name: These commands start, stop or restart a particular system service.
+
+    journalctl: This command allows you to view system logs, including any error messages that may indicate problems with your system.
+
+    systemd-analyze blame: This command shows the boot time of your system and identifies any services that are taking too long to start.
+
+    sudo dmesg: This command displays the kernel messages that are generated during the system boot process.
+
+    htop: This command shows you the system's resource usage, including CPU, memory, and disk usage.
+
+    fdupes: This tool finds and removes duplicate files on your system, helping you to save disk space.
+
+    bleachbit: This tool is used to clean up temporary files, cache files, and other system junk that can accumulate over time and slow down your system.
+
+These are just some of the commands and tools that you can use to keep your Fedora Linux system up to date, clean and maintained. Remember to always be careful when using any command that affects the system, and make sure to back up important data before making any major changes.
